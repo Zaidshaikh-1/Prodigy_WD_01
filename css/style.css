@@ -83,7 +83,7 @@ nav a:hover {
 }
 
 /* Features Section */
-.features {
+/* .features {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -105,6 +105,66 @@ nav a:hover {
 .feature-box:hover {
   background-color: #E8EAF6;
   transform: translateY(-5px);
+} */
+
+.feature-section {
+  padding: 60px 20px;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.feature-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.feature-image {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.feature-image img {
+  max-width: 65%;
+  height: 20rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .feature-row,
+  .feature-row.reverse {
+    flex-direction: column;
+  }
+}
+/* Feature Box Hover */
+.feature-row:hover {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Image Hover Effect */
+.feature-image img {
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.feature-image img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* Contact Section */
@@ -159,6 +219,27 @@ footer {
   padding: 20px;
   text-align: center;
 }
+/* Scroll to Top */
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  display: none;
+  background-color: #3F51B5;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  transition: background 0.3s ease;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #283593;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
