@@ -23,7 +23,8 @@ The goal of this task was to build a fully responsive and aesthetically structur
 
 ## 🖼️ Preview
 
-*(Add a screenshot or live preview link here)*
+![Screenshot 2025-06-02 170847](https://github.com/user-attachments/assets/e712a061-50db-4227-a509-ee6c16b74086)
+![Screenshot 2025-06-02 170927](https://github.com/user-attachments/assets/e8429ffc-f725-4d51-9948-ceee2fceaf64)
 
 ## 🚀 How to Run
 
