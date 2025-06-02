@@ -117,40 +117,6 @@ a:hover {
   transform: translateY(-5px);
 }
 
-/* .feature-section {
-  padding: 60px 20px;
-}
-
-.feature-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 40px 0;
-  flex-wrap: wrap;
-}
-
-.feature-row.reverse {
-  flex-direction: row-reverse;
-}
-
-.feature-text {
-  flex: 1;
-  padding: 20px;
-}
-
-.feature-image {
-  flex: 1;
-  padding: 20px;
-  text-align: center;
-}
-
-.feature-image img {
-  max-width: 65%;
-  height: 20rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-} */
-
 /* Responsive */
 @media (max-width: 768px) {
   .feature-row,
