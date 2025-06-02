@@ -78,12 +78,22 @@ nav a:hover {
   transition: background-color 0.3s ease;
 }
 
+/* links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .hero button:hover {
   background-color: #7E57C2;
 }
 
-/* Features Section */
-/* .features {
+/* Features Section */ 
+.features {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -105,9 +115,9 @@ nav a:hover {
 .feature-box:hover {
   background-color: #E8EAF6;
   transform: translateY(-5px);
-} */
+}
 
-.feature-section {
+/* .feature-section {
   padding: 60px 20px;
 }
 
@@ -139,7 +149,7 @@ nav a:hover {
   height: 20rem;
   border-radius: 10px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -215,21 +225,23 @@ textarea:focus {
 /* Footer */
 footer {
   background-color: #3F51B5;
+  height:10rem;
   color: white;
   padding: 20px;
   text-align: center;
+  
 }
-/* Scroll to Top */
+/* to top button  */
 #scrollToTopBtn {
   position: fixed;
   bottom: 40px;
   right: 30px;
   display: none;
-  background-color: #3F51B5;
+  background-color: #3f51b5;
   color: white;
   border: none;
   padding: 10px 14px;
-  border-radius: 50%;
+  border-radius: 5%;
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   z-index: 999;
@@ -239,7 +251,6 @@ footer {
 #scrollToTopBtn:hover {
   background-color: #283593;
 }
-
 
 /* Responsive Design */
 @media (max-width: 768px) {
