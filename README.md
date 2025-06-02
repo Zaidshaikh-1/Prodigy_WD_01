@@ -33,7 +33,7 @@ The goal of this task was to build a fully responsive and aesthetically structur
    git clone https://github.com/your-username/landing-page-task01.git
 
 
-Navigate to the project folder and open index.html in any browser.
+2. Navigate to the project folder and open index.html in any browser.
 
 📂 Folder Structure
 landing-page-task01/
