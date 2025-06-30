@@ -1,6 +1,4 @@
-# 🌐 Landing Page – Task 01 (Web Development Internship)
-
-This is **Task 01: Landing Page** completed as part of my **Web Development Internship at [Prodigy InfoTech](https://prodigyinfotech.dev/)**.
+# 🌐 Landing Page 
 
 ## 📌 Project Description
 
